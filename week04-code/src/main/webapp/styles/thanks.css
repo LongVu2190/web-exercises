@@ -1,0 +1,66 @@
+h1 {
+    font-size: 26px;
+    color: black;
+    margin: 0px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.card {
+    position: relative;
+    left: 50vw;
+    top: 10vh;
+    transform: translate(-50%, 0);
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 2rem;
+    justify-content: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+
+    border-radius: 15px;
+    background: #c3cbc8;
+    box-shadow: 34px 34px 68px #838886, -34px -34px 68px #ffffff;
+}
+
+.comic-button {
+    display: block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: teal;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.comic-button:hover {
+    background-color: #fff;
+    color: rgb(2, 99, 99);
+    border: 2px solid rgb(2, 99, 99);
+    box-shadow: 5px 5px 0px rgb(2, 80, 80);
+    cursor: pointer;
+}
+
+.comic-button:active {
+    background-color: rgb(3, 121, 121);
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+span {
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 400;
+}
