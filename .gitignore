@@ -1,1 +1,11 @@
-/week04-code/target
+/email/build
+/email/lib
+/email/test
+
+/portfolio/build
+/portfolio/lib
+/portfolio/test
+
+/survey/build
+/survey/lib
+/survey/test
