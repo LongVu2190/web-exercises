@@ -180,3 +180,7 @@ img {
 .container.flex-lg-column {
     padding: 0px 50px;
 }
+
+.col-md-4 {
+    width: 50%;
+}

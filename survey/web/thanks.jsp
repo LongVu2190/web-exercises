@@ -51,7 +51,7 @@
             To enter another email address, click on the Back button in your browser or the Return button shown below.
         </p>
 
-        <button onclick="window.location.href = 'index.html';" type="submit" value="Return" class="comic-button">
+        <button onclick="window.location.href = 'index.jsp';" type="submit" value="Return" class="comic-button">
             Return
         </button>
 

@@ -1,11 +1,14 @@
-/email/build
-/email/lib
-/email/test
+/albums/nbproject/private/
+/albums/build/
 
-/portfolio/build
-/portfolio/lib
-/portfolio/test
+/carts/nbproject/private/
+/carts/build/
 
-/survey/build
-/survey/lib
-/survey/test
+/email/nbproject/private/
+/email/build/
+
+/portfolio/nbproject/private/
+/portfolio/build/
+
+/survey/nbproject/private/
+/survey/build/
