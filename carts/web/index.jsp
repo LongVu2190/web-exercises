@@ -1,54 +1,71 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>Murach's Java Servlets and JSP</title>
-        <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+        <link rel="stylesheet" href="./styles/bootstrap.min.css">
+        <link rel="stylesheet" href="./styles/aos.css">
+        <link rel="stylesheet" href="./styles/style.css">
     </head>
     <body>
 
-        <h1>CD list</h1>
-        <table>
-            <tr>
-                <th>Description</th>
-                <th class="right">Price</th>
-                <th>&nbsp;</th>
-            </tr>
-            <tr>
-                <td>86 (the band) - True Life Songs and Pictures</td>
-                <td class="right">$14.95</td>
-                <td><form action="cart" method="post">
-                        <input type="hidden" name="productCode" value="8601">
-                        <input type="submit" value="Add To Cart">
-                    </form>
-<!--                    <a href="cart?productCode=8601">Add To Cart</a>-->
-                </td>
-            </tr>
-            <tr>
-                <td>Paddlefoot - The first CD</td>
-                <td class="right">$12.95</td>
-                <td><form action="cart" method="post">
-                        <input type="hidden" name="productCode" value="pf01">
-                        <input type="submit" value="Add To Cart">
-                    </form></td>
-            </tr>
-            <tr>
-                <td>Paddlefoot - The second CD</td>
-                <td class="right">$14.95</td>
-                <td><form action="cart" method="post">
-                        <input type="hidden" name="productCode" value="pf02">
-                        <input type="submit" value="Add To Cart">
-                    </form></td>
-            </tr>
-            <tr>
-                <td>Joe Rut - Genuine Wood Grained Finish</td>
-                <td class="right">$14.95</td>
-                <td><form action="cart" method="post">
-                        <input type="hidden" name="productCode" value="jr01">
-                        <input type="submit" value="Add To Cart">
-                    </form></td>
-            </tr>
-        </table>
+        <section id="" class="full-height px-lg-5">
+            <div class="container">
 
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h1 class="text-brand" style="color: white">CD list</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-content p-4">
+                                <h5 class="mb-3" style="color: #e0f780">86 (the band) - True Life Songs and Pictures</h5>
+                                <h6 class="mb-4">Price: $14.95</h6>
+                                <a href="cart?productCode=8601" class="link-custom">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-content p-4">
+                                <h5 class="mb-3" style="color: #e0f780">Paddlefoot - The first CD</h5>
+                                <h6 class="mb-4">Price: $12.95</h6>
+                                <a href="cart?productCode=pf01" class="link-custom">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-content p-4">
+                                <h5 class="mb-3" style="color: #e0f780">Paddlefoot - The second CD</h5>
+                                <h6 class="mb-4">Price: $14.95</h6>
+                                <a href="cart?productCode=pf02" class="link-custom">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up"  data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-content p-4">
+                                <h5 class="mb-3" style="color: #e0f780">Joe Rut - Genuine Wood Grained Finish</h5>
+                                <h6 class="mb-4">Price: $14.95</h6>
+                                <a href="cart?productCode=jr01" class="link-custom">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <script src="./styles/bootstrap.bundle.min.js"></script>
+        <script src="./styles/aos.js"></script>
+        <script src="./styles/main.js"></script>
     </body>
 </html>
