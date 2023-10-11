@@ -20,9 +20,9 @@ public class SqlGatewayServlet extends HttpServlet {
             Class.forName("com.mysql.jdbc.Driver");
             
             // get a connection
-            String dbURL = "jdbc:mysql://localhost:3306/murach";
-            String username = "murach_user";
-            String password = "sesame";
+            String dbURL = "jdbc:mysql://localhost:3306/murach?characterEncoding=utf8";
+            String username = "root";
+            String password = "root";
             Connection connection = DriverManager.getConnection(
                     dbURL, username, password);
 

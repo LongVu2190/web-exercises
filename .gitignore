@@ -1,20 +1,23 @@
 /albums/nbproject/private/
+/carts/dist/
 /albums/build/
 
 /carts/nbproject/private/
+/carts/dist/
 /carts/build/
 
 /email/nbproject/private/
+/email/dist/
 /email/build/
 
 /portfolio/nbproject/private/
+/portfolio/dist/
 /portfolio/build/
 
 /survey/nbproject/private/
-/survey/build/
-/albums/dist/
-/carts/dist/
-/email/dist/
-/portfolio/dist/
 /survey/dist/
+/survey/build/
+
 /sqlgateway/nbproject/private/
+/sqlgateway/dist/
+/sqlgateway/build/
