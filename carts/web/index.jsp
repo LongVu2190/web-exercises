@@ -4,7 +4,7 @@
         <title>Murach's Java Servlets and JSP</title>
         <link rel="stylesheet" href="./styles/bootstrap.min.css">
         <link rel="stylesheet" href="./styles/aos.css">
-        <link rel="stylesheet" href="./styles/style.css">\
+        <link rel="stylesheet" href="./styles/style.css">
         <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
         <style>
             body {
