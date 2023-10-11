@@ -6,8 +6,21 @@
         <title>Thanks</title>
         <link rel="stylesheet" href="styles/main.css" type="text/css" />
         <link rel="stylesheet" href="styles/thanks.css" type="text/css" />
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     </head>
     <body>
+        <a href="http://longvu.midjava.com#work" style="position: fixed;
+           width: 70px;
+           height: 70px;
+           bottom: 40px;
+           right: 40px;
+           background-color: #045b66;
+           color: #fff;
+           border-radius: 50px;
+           text-align: center;
+           font-size: 26px;">
+            <i class="las la-home" style="margin-top: 22px;"></i>
+        </a>
         <div id="thank">
             <h1>Thanks for joining our email list</h1>
             <p>Here is the information that you entered:</p>

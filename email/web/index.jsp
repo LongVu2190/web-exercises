@@ -1,4 +1,16 @@
 <%@ include file="/includes/header.html" %>
+<a href="http://longvu.midjava.com#work" style="position: fixed;
+   width: 70px;
+   height: 70px;
+   bottom: 40px;
+   right: 40px;
+   background-color: #045b66;
+   color: #fff;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 26px;">
+    <i class="las la-home" style="margin-top: 22px;"></i>
+</a>
 
 <div id="emailForm">
     <form action="EmailListServlet" method="post">
