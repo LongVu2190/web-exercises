@@ -20,7 +20,7 @@
            font-size: 26px;">
             <i class="las la-home" style="margin-top: 22px;"></i>
         </a>
-        <section id="" class="full-height px-lg-5">
+        <section class="full-height px-lg-5">
             <div class="container">
 
                 <div class="row pb-4" data-aos="fade-up">

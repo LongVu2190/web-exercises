@@ -54,15 +54,15 @@
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-content p-4">
 
-                                <h5 class="mb-3" style="color: #e0f780">${item.product.description}</h5>
+                                <h5 class="mb-3" style="color: #e0f780"><c:out value="${item.product.description}"></c:out></h5>
                                 <h6 class="mb-3">Price: ${item.product.priceCurrencyFormat}, Total: ${item.totalCurrencyFormat}</h6>
                                 <form class="row g-3">
-                                    <input type="hidden" name="productCode" value="${item.product.code}">
+                                    <input type="hidden" name="productCode" value="<c:out value="${item.product.code}"></c:out>">
                                     <div class="col-auto quantity">
                                         <h7 style="padding-top: 10px">Quantity: </h7>
                                     </div>
                                     <div class="col-auto">
-                                        <input type="text" name="quantity" value="${item.quantity}" class="form-control" placeholder="Password">
+                                        <input type="text" name="quantity" value="<c:out value="${item.quantity}"></c:out>" class="form-control" placeholder="Password">
                                     </div>
                                     <div class="col-auto">
                                         <button type="submit" value="Update" class="btn btn-primary mb-3">Update</button>
