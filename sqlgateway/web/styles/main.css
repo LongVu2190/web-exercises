@@ -29,7 +29,7 @@ input[type="text"], input[type="email"] {  /* An attribute selector */
 }
 span {
     margin-left: 0.5em;    
-    margin-bottom: 0.5em;    
+    margin-bottom: 0.5em;
 }
 br {
     clear: both;
