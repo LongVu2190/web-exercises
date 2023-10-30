@@ -1,5 +1,5 @@
 /albums/nbproject/private/
-/carts/dist/
+/albums/dist/
 /albums/build/
 
 /carts/nbproject/private/
@@ -25,10 +25,7 @@
 /emailsql/nbproject/private/
 /emailsql/dist/
 /emailsql/build/
-/albums/dist/
+
 /musicstore/nbproject/private/
 /musicstore/build/
 /musicstore/dist/
-/musicStore10/nbproject/private/
-/musicStore10/build/
-/musicStore10/dist/
