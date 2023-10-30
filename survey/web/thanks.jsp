@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <a href="http://longvu.midjava.com#work" style="position: fixed;
+        <a href="http://longvu.pantech.vn#work" style="position: fixed;
            width: 70px;
            height: 70px;
            bottom: 40px;

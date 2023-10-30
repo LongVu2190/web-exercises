@@ -15,6 +15,12 @@ public class CartServlet extends HttpServlet {
             HttpServletResponse response)
             throws ServletException, IOException {
 
+        String ipAddress = request.getHeader("X-FORWARDED-FOR");
+        if (ipAddress == null) {
+            ipAddress = request.getRemoteAddr();
+        }
+
+        System.out.println("ipAddress: " + ipAddress);
         String url = "/index.jsp";
         ServletContext sc = getServletContext();
 
